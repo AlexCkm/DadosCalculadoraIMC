@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">DadosCalculadoraIMC</string>
+    <string name="Dados">Dados</string>
+    <string name="Calculadora">Calculadora</string>
+    <string name="IMC">IMC</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>

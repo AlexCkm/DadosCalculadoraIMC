@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/dadosFragment">
+
+    <fragment
+        android:id="@+id/dadosFragment"
+        android:name="com.example.dadoscalculadoraimc.DadosFragment"
+        android:label="fragment_dados"
+        tools:layout="@layout/fragment_dados" />
+    <fragment
+        android:id="@+id/caculadoraFragment"
+        android:name="com.example.dadoscalculadoraimc.CaculadoraFragment"
+        android:label="fragment_caculadora"
+        tools:layout="@layout/fragment_caculadora" />
+    <fragment
+        android:id="@+id/IMCFragment"
+        android:name="com.example.dadoscalculadoraimc.IMCFragment"
+        android:label="fragment_i_m_c"
+        tools:layout="@layout/fragment_i_m_c" />
+</navigation>
