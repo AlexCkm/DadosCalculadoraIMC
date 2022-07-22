@@ -26,8 +26,6 @@ class DadosFragment : Fragment() {
         savedInstanceState: Bundle?
     ): View {
 
-
-
         _binding = FragmentDadosBinding.inflate(inflater, container, false)
         // Inflate the layout for this fragment
         return binding.root
